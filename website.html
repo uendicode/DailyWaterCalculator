@@ -1,0 +1,138 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+    <meta charset="utf-8">
+	<meta name="description" content="Daily Water Calculator">
+	<meta name="keywords" content="water calculator,daily water, hydration">
+
+	<title> Daily Water Calculator </title>
+
+	<link rel="stylesheet" href="styleweb.css">
+	</head>
+
+<body section id="Home">
+	<div class="menu">
+		<ul> 
+			 <li><a  href="#Home"> </a></li>
+			 <li> <a href="#cal"> Calculate </a></li>
+			 <li> <a href="#infos">Information</a></li>
+		</ul>
+		</div>
+		
+		<div>
+			<section id ="Home"class="section1">
+				<header id="showcase">
+					
+						<div class="container">
+							
+						
+					</div>
+				</header>
+			</section>
+			
+			<section id="cal" class="section2"> 
+					<div class ="container">
+						<h2> • Water Calculation •</h2> 
+							<div class ="cal-content"> 
+								<div class="container 2">
+	  <div class="box-3">
+    <form id="personal_info" onsubmit="return false">
+    <fieldset>
+    <legend>Please insert data here:</legend>
+    <label for="weight">Enter your weight:</label><br>
+    <input type="text" id="weight" size="3" maxlength="5"><br>
+    <label for="exercise">How much do you exercise/day (min)?</label><br>
+    <input type="text" id="exercise" size="3" maxlength="5"><br>
+    <button id="calculate" onClick="calculateWater();">Calculate Me</button>
+    <button id="clear" onclick="resetForm();">Clear Calculation</button><br>
+    <label for="required_water">Required water/day amount in oz:</label><br>
+    <input type="text" id="required_water" size="3" maxlength="5"><br>
+    <label for="water_bottles">Number of 16.9 oz water bottles needed:</label><br>
+    <input type="text" id="water_bottles" size="3" maxlength="5">
+    </fieldset>
+    </form>
+	</div>
+    </div>
+	 <script type="text/javascript" src="water.js"></script>
+							<div class="cal-image">
+								<img src ="images/water.jpg" alt="my Picture">
+							</div>
+							</div>
+					</div>
+			</section>
+			
+			<section id ="infos"class="section3">
+         <h1>Drink your daily water</h1>
+					 <div id="slider">
+   <input type="radio" name="slider" id="slide1" checked>
+   <input type="radio" name="slider" id="slide2">
+   <input type="radio" name="slider" id="slide3">
+   <input type="radio" name="slider" id="slide4">
+   <div id="slides">
+      <div id="overflow">
+         <div class="inner">
+            <div class="slide slide_1">
+               <div class="slide-content">
+                  <h2>Hydration is KEY</h2>
+                  <p>Water has the ability to flush out the toxins from our 
+				  organs. With this, you can prevent skin problems like eczema, 
+				  wrinkles, and psoriasis.It can also carry the nutrients in 
+				  the cells, which can enable the organs to function at its 
+				  optimum levels.  </p>
+               </div>
+            </div>
+            <div class="slide slide_2">
+               <div class="slide-content">
+                  <h2>For SKIN & BEAUTY</h2>
+                  <p>Drinking water is the secret to enhancing one’s beauty. 
+				  This is the key to prolonging your youthful aura. As such, 
+				  it is best to consume enough amount of water each day to 
+				  have fresh, soft, and glowing skin. This can help maintain 
+				  an optimal body temperature, which can make the skin moisturized.</p>
+               </div>
+            </div>
+            <div class="slide slide_3">
+               <div class="slide-content">
+                  <h2>For MEMORY & MOOD</h2>
+                  <p>“Drink to think” should be the new mantra for all those 
+				  embarking on exams, say researchers.Since your brain is mostly 
+				  water, drinking it helps you in a number of ways, including:
+				  improving concentration and cognition, helping to balance your 
+				  mood and emotions, increasing blood flow and oxygen to your brain,
+				  maintaining memory function etc.</p>
+               </div>
+            </div>
+            <div class="slide slide_4">
+               <div class="slide-content">
+                  <h2>For HEALTHY MUSCELS & RECOVERY</h2>
+                  <p>Being adequately hydrated is very important when exercising. 
+				  Drinking water helps prevent muscle cramping and lubricates the 
+				  joints in your body. Additionally, drinking water can actually 
+				  make your muscles stronger. Water carries oxygen to the cells 
+				  of your body, including those of your muscles. Being well 
+				  hydrated enables your muscles to work longer and harder before 
+				  they feel tired, and this will help you build muscle.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="controls">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+   </div>
+   <div id="bullets">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+   </div>
+</div>
+			
+			
+			
+</body>
+
+</html>
